@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- STYLES -->
+    <link rel="stylesheet" href="./assets/./css/resets.css" />
+    <link rel="stylesheet" href="./assets/./css/code-editor.css" />
+
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- ICONS -->
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Code Editor</title>
+  </head>
+  <body>
+    <div id="app-container">
+      <div id="app-header">
+        <div class="header-item">
+          <span> &lt;/&gt; Code Editor</span>
+        </div>
+        <div class="header-item">
+          <span>👁️ Live Preview</span>
+        </div>
+      </div>
+      <div id="main-content">
+        <div id="left-panel">
+          <textarea id="code-editor" spellcheck="false"></textarea>
+        </div>
+        <div id="right-panel">
+          <iframe id="preview"></iframe>
+        </div>
+      </div>
+    </div>
+
+    <ul id="custom-context-menu">
+      <li class="context-menu-item" id="clear-code">Xóa code</li>
+    </ul>
+    <script src="./assets/js/code-editor.js"></script>
+  </body>
+</html>

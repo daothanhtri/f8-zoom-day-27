@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- STYLES -->
+    <link rel="stylesheet" href="./assets/./css/resets.css" />
+    <link rel="stylesheet" href="./assets/./css/slideshow.css" />
+
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- ICONS -->
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>SlideShow</title>
+  </head>
+  <body>
+    <div class="slideshow-container">
+      <div class="slideshow-inner">
+        <div class="slide-item">
+          <img src="./assets/img/img-1.jpg" alt="Slide 1" />
+        </div>
+        <div class="slide-item">
+          <img src="./assets/img/img-2.jpg" alt="Slide 2" />
+        </div>
+        <div class="slide-item">
+          <img src="./assets/img/img-3.jpg" alt="Slide 3" />
+        </div>
+        <div class="slide-item">
+          <img src="./assets/img/img-4.jpg" alt="Slide 4" />
+        </div>
+        <div class="slide-item">
+          <img src="./assets/img/img-5.jpg" alt="Slide 5" />
+        </div>
+        <div class="slide-item">
+          <img src="./assets/img/img-6.jpg" alt="Slide 6" />
+        </div>
+      </div>
+      <div class="controls">
+        <button class="control-btn prev">
+          <i class="fa-solid fa-chevron-left"></i>
+        </button>
+        <button class="control-btn next">
+          <i class="fa-solid fa-chevron-right"></i>
+        </button>
+      </div>
+      <div class="pagination"></div>
+    </div>
+
+    <script src="./assets/js/slideshow.js"></script>
+  </body>
+</html>
