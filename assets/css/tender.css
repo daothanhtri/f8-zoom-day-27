@@ -70,6 +70,7 @@ body {
 .card-info h2 {
   margin-bottom: 5px;
   font-size: 1.8em;
+  color: #fff;
 }
 
 .card-info span {
@@ -79,6 +80,7 @@ body {
 .card-info p {
   font-size: 1.1em;
   line-height: 1.4;
+  color: #ccc;
 }
 
 .card-stack .card:nth-child(2) {
